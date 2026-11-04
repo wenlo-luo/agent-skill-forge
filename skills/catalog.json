@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "skills": [
+    {
+      "name": "dycopy",
+      "path": "skills/dycopy/SKILL.md",
+      "description": "下载和归档用户有权处理的抖音作品，提取文案、元数据与口播逐字稿，支持多个作品和主页的图文、视频、Live Photo 增量归档。",
+      "category": "media-archiving",
+      "triggers": [
+        "用户要求下载或分析抖音作品",
+        "用户要求批量归档抖音主页"
+      ],
+      "requires": [
+        "DyCopy application source",
+        "Python 3.10 or newer"
+      ],
+      "references": [
+        "skills/dycopy/references/troubleshooting.md"
+      ],
+      "source": "https://github.com/cyancity/dycopy-public"
+    },
+    {
+      "name": "herdr-subagent",
+      "path": "skills/herdr-subagent/SKILL.md",
+      "description": "包工头 skill：使用 Herdr 将独立任务交给其他 CLI agent，leader 盯进度并逐个验收结果；Herdr CLI 是前置依赖，委派前先确认已安装。",
+      "aliases": ["包工头", "包工头 skill", "foreman"],
+      "category": "agent-orchestration",
+      "triggers": [
+        "用户提到“包工头”skill",
+        "需要跨 CLI 委派任务",
+        "任务适合隔离工作树或长时间异步执行"
+      ],
+      "requires": [
+        "Herdr CLI installed and available on PATH",
+        "At least one supported agent CLI"
+      ],
+      "references": [],
+      "source": "curated"
+    }
+  ]
+}

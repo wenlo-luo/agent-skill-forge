@@ -1,4 +1,4 @@
-# Curated Agent Skills
+# Agent Skill Forge
 
 一份持续扩充的 agent skill 集合。每个条目都经过人工审阅和脱敏，目录、元数据和安装边界都为 agent 读取而整理。
 
@@ -10,7 +10,7 @@
 </picture>
 
 <p>
-  <a href="https://github.com/cyancity/curated-agent-skills"><img src="https://img.shields.io/badge/skills-2-4263eb" alt="2 skills"></a>
+  <a href="https://github.com/wenlo-luo/agent-skill-forge"><img src="https://img.shields.io/badge/skills-2-4263eb" alt="2 skills"></a>
   <a href="skills/herdr-subagent/SKILL.md"><img src="https://img.shields.io/badge/%E5%8C%85%E5%B7%A5%E5%A4%B4-herdr--subagent-0b7285" alt="包工头 = herdr-subagent"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-2f9e44" alt="MIT license"></a>
 </p>
@@ -37,7 +37,7 @@
 先确认运行环境支持 SKILL.md skill。只安装当前任务会用到的目录，并按 agent 宿主的文档放入对应技能目录。
 
 ```bash
-git clone https://github.com/cyancity/curated-agent-skills.git
+git clone https://github.com/wenlo-luo/agent-skill-forge.git
 ```
 
 读取被选中 skill 的完整 SKILL.md，并一并读取它链接的本地参考文件。不要把整个集合的所有 skill 都当作当前任务指令。

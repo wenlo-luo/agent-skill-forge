@@ -5,7 +5,7 @@ description: 下载和归档用户有权处理的抖音作品，提取文案、�
 
 # dycopy
 
-先定位包含 `dycopy.py` 的源码目录，读取[公开源码仓库](https://github.com/cyancity/dycopy-public/blob/main/README.md)和当前命令的 `--help`。应用源码与本 skill 分开分发。不要假定用户目录、虚拟环境或素材库的位置。
+先定位包含 `dycopy.py` 的源码目录，读取[公开源码仓库](https://github.com/wenlo-luo/dycop-public/blob/main/README.md)和当前命令的 `--help`。应用源码与本 skill 分开分发。不要假定用户目录、虚拟环境或素材库的位置。
 
 复用已有解释器、浏览器和模型缓存。依赖缺失时指出缺项，按当前授权处理安装；不要自行切换付费服务。浏览器启动、转写静默或输出异常时，读 [故障定位](references/troubleshooting.md)。
 

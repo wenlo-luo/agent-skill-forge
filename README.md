@@ -44,7 +44,7 @@ git clone https://github.com/wenlo-luo/agent-skill-forge.git
 
 ## DyCopy 应用源码
 
-dycopy skill 描述如何使用 DyCopy。应用源码保留在独立的 [DyCopy 源码仓库](https://github.com/cyancity/dycopy-public)。实际参数以源码仓库中的 README.md 和 --help 为准。
+dycopy skill 描述如何使用 DyCopy。应用源码保留在独立的 [DyCopy 源码仓库](https://github.com/wenlo-luo/dycop-public)。实际参数以源码仓库中的 README.md 和 --help 为准。
 
 DyCopy 是非官方工具，与抖音及其运营方没有隶属、合作或背书关系。公开可见不代表允许批量采集、下载、去标识、再分发或商用。只处理你有权访问和使用的内容。
 
